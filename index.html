@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/input.css" />
+    <title>Arnob – Website Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav aria-label="Primary">
+      <a class="on" data-v="work" href="#work">~/work</a
+      ><a data-v="about" href="#about">about</a
+      ><a data-v="play" href="#play">play</a
+      ><a data-v="notes" href="#notes">notes</a
+      ><a data-v="contact" href="#contact">contact</a>
+    </nav>
+    <main>
+      <div class="view on" id="v-work">
+        <section class="hero">
+          <div>
+            <h1>Hi! I’m Arnob <span>A Developer.</span></h1>
+            <p class="lede">
+              I build fast, accessible websites and web apps, from clean
+              front-end interfaces to the back end that powers them.
+            </p>
+            <div class="chips">
+              <b>HTML</b><b>CSS</b><b>JavaScript</b><b>React</b><b>Node.js</b
+              ><b>Git</b>
+            </div>
+          </div>
+          <div class="win">
+            <div class="top"><i></i><i></i><i></i><em>index.js</em></div>
+            <pre><span class="k">const</span> developer = {
+  name: <span class="s">"Arnob"</span>,
+  role: <span class="s">"Website Developer"</span>,
+  builds: [<span class="s">"websites"</span>, <span class="s">"web apps"</span>],
+  focus: <span class="s">"fast, accessible, user-centric"</span>,
+  open<span class="k">ToWork</span>: <span class="h">true</span>
+};<span class="cur"></span></pre>
+          </div>
+        </section>
+
+        <h2><code>/projects</code></h2>
+        <p class="sub">Sites and tools I’ve built, each one shipped live.</p>
+        <div class="grid">
+          <article class="win">
+            <div class="top">
+              <i></i><i></i><i></i><em>https://help-ai.example.com</em>
+            </div>
+            <div class="page">
+              <div class="nv"></div>
+              <div class="hd" style="background: #8a5fd0"></div>
+              <div class="bx"><u></u><u></u><u></u></div>
+            </div>
+            <div class="meta">
+              <h3>AI Help Assistant</h3>
+              <p>Writing tool with inline suggestions.</p>
+              <div class="chips"><b>React</b><b>Node.js</b></div>
+            </div>
+          </article>
+          <article class="win">
+            <div class="top">
+              <i></i><i></i><i></i><em>https://docs.example.com</em>
+            </div>
+            <div class="page">
+              <div class="nv"></div>
+              <div class="hd" style="background: var(--acc)"></div>
+              <div class="bx"><u></u><u></u><u></u></div>
+            </div>
+            <div class="meta">
+              <h3>Knowledge Base</h3>
+              <p>Searchable articles with a live editor.</p>
+              <div class="chips"><b>JavaScript</b><b>CSS</b></div>
+            </div>
+          </article>
+          <article class="win">
+            <div class="top">
+              <i></i><i></i><i></i><em>https://plugins.example.com</em>
+            </div>
+            <div class="page">
+              <div class="nv"></div>
+              <div class="hd" style="background: var(--hot)"></div>
+              <div class="bx"><u></u><u></u><u></u></div>
+            </div>
+            <div class="meta">
+              <h3>Design Plugins</h3>
+              <p>Extensions that automate design handoff.</p>
+              <div class="chips"><b>TypeScript</b><b>API</b></div>
+            </div>
+          </article>
+          <article class="win">
+            <div class="top">
+              <i></i><i></i><i></i><em>https://m.example.com</em>
+            </div>
+            <div class="page">
+              <div class="nv"></div>
+              <div class="hd" style="background: var(--acc2)"></div>
+              <div class="bx"><u></u><u></u><u></u></div>
+            </div>
+            <div class="meta">
+              <h3>Mobile Web App</h3>
+              <p>Responsive, installable and offline-ready.</p>
+              <div class="chips"><b>PWA</b><b>React</b></div>
+            </div>
+          </article>
+        </div>
+
+        <h2><code>git log</code> in progress</h2>
+        <p class="sub">
+          Work in various states of development, from side projects to in-flight
+          products.
+        </p>
+        <div class="win">
+          <div class="top"><i></i><i></i><i></i><em>terminal</em></div>
+          <div class="log">
+            <div>
+              <span class="sha">a3f9c21</span
+              ><span class="tag">(HEAD → main)</span
+              ><span>Doodler: multiplayer drawing canvas</span>
+            </div>
+            <div>
+              <span class="sha">7b20e4d</span
+              ><span class="tag">(feature/plugin)</span
+              ><span>Droplette: color picker plugin</span>
+            </div>
+            <div>
+              <span class="sha">1c88a05</span
+              ><span>Improve accessibility and page speed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="view" id="v-about">
+        <div class="pt">
+          <h2 style="margin-top: 0"><code>/about</code></h2>
+          <div class="two">
+            <div>
+              <p class="lede" style="max-width: none">
+                I’m Arnob, a website developer who cares about how a page feels
+                as much as how it works. I turn designs into fast, accessible,
+                responsive sites, and I like owning the whole path from first
+                commit to live deploy.
+              </p>
+              <p class="lede" style="max-width: none">
+                Most days I’m building interfaces in React, wiring them to APIs,
+                and trimming load times until they feel instant.
+              </p>
+            </div>
+            <div class="win">
+              <div class="top"><i></i><i></i><i></i><em>now.md</em></div>
+              <pre><span class="c"># Right now</span>
+<span class="k">building</span>  client sites &amp; web apps
+<span class="k">learning</span>  TypeScript &amp; testing
+<span class="k">reading</span>   web performance docs
+<span class="k">open to</span>   freelance projects</pre>
+            </div>
+          </div>
+          <h2>Toolbox</h2>
+          <div class="stack">
+            <div>HTML &amp; CSS<small>layout, responsive, a11y</small></div>
+            <div>JavaScript<small>ES6+, DOM, async</small></div>
+            <div>React<small>components, hooks</small></div>
+            <div>Node.js<small>APIs, servers</small></div>
+            <div>Git &amp; GitHub<small>branches, reviews</small></div>
+            <div>Performance<small>Lighthouse, caching</small></div>
+          </div>
+          <h2>Experience</h2>
+          <ul class="tl">
+            <li>
+              <b>Freelance Website Developer</b><br /><span
+                class="sub"
+                style="margin: 0"
+                >2024 – Present. Marketing sites and web apps for small
+                businesses.</span
+              >
+            </li>
+            <li>
+              <b>Junior Front-End Developer</b><br /><span
+                class="sub"
+                style="margin: 0"
+                >2022 – 2024. Built UI components and fixed accessibility
+                issues. (Placeholder)</span
+              >
+            </li>
+            <li>
+              <b>Started coding</b><br /><span class="sub" style="margin: 0"
+                >Built a first website and never stopped.</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="view" id="v-play">
+        <div class="pt">
+          <h2 style="margin-top: 0"><code>/play</code></h2>
+          <p class="sub">Small experiments made for fun. Try the first one.</p>
+          <div class="grid">
+            <article class="win">
+              <div class="top"><i></i><i></i><i></i><em>palette.js</em></div>
+              <div class="swatches">
+                <div class="sw"></div>
+                <div class="sw"></div>
+                <div class="sw"></div>
+                <div class="sw"></div>
+                <div class="sw"></div>
+              </div>
+              <div class="meta">
+                <h3>Palette shuffler</h3>
+                <p>Random color ideas in one click.</p>
+                <button class="btn" id="sh" type="button">Shuffle</button>
+              </div>
+            </article>
+            <article class="win">
+              <div class="top"><i></i><i></i><i></i><em>ideas.md</em></div>
+              <div class="log">
+                <div>• Pure CSS illustrations</div>
+                <div>• Typing speed game</div>
+                <div>• Tiny weather widget</div>
+                <div>• Keyboard shortcut cheat sheet</div>
+              </div>
+              <div class="meta">
+                <h3>Experiment queue</h3>
+                <p>What I’m tinkering with next.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="view" id="v-notes">
+        <div class="pt">
+          <h2 style="margin-top: 0"><code>/notes</code></h2>
+          <p class="sub">Short write-ups on things I learn while building.</p>
+          <div class="note">
+            <div>
+              <b>Make your site feel instant</b>
+              <p>Five changes that cut load time.</p>
+            </div>
+            <span class="mono">Performance · 5 min</span>
+          </div>
+          <div class="note">
+            <div>
+              <b>Accessible forms in React</b>
+              <p>Labels, errors and focus done properly.</p>
+            </div>
+            <span class="mono">Accessibility · 7 min</span>
+          </div>
+          <div class="note">
+            <div>
+              <b>CSS Grid without the guesswork</b>
+              <p>A practical way to think about layout.</p>
+            </div>
+            <span class="mono">CSS · 4 min</span>
+          </div>
+          <div class="note">
+            <div>
+              <b>My Git habits</b>
+              <p>Small commits and clear messages.</p>
+            </div>
+            <span class="mono">Workflow · 3 min</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="view" id="v-contact">
+        <div class="pt">
+          <h2 style="margin-top: 0">Let’s build your <code>website</code>.</h2>
+          <p class="sub">
+            Have a project, a bug or a question? Send a message and I’ll reply
+            within a couple of days.
+          </p>
+          <div class="win" style="max-width: 560px">
+            <div class="top"><i></i><i></i><i></i><em>contact.sh</em></div>
+            <div class="log">
+              <div>
+                <span class="tag">email</span><span>arnobvawalraj@gmail.com</span>
+              </div>
+              <div>
+                <span class="tag">github</span><span>github.com/arnobvawal</span>
+              </div>
+              <div>
+                <span class="tag">linkedin</span
+                ><span>linkdin.com/rajibchandravawal</span>
+              </div>
+            </div>
+            <div class="meta">
+              <a class="btn" href="mailto:arnob@example.com">Send email</a>
+              <button class="btn alt" id="cp" type="button">Copy email</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>© 2026 Arnob</div>
+      <div class="cols">
+        <div>
+          <h5>Elsewhere</h5>
+          <a href="#">Figma</a><a href="#">Github</a><a href="#">Posts</a
+          ><a href="#">CV</a><a href="#">LinkedIn</a>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <a href="#">Message</a>
+        </div>
+      </div>
+    </footer>
+    <button id="t" aria-label="Toggle theme">☾</button>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
